@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mlcreations.mathqwhiz.TimeTrialActivity">
+    <item
+        android:id="@+id/timetrial_action_settings"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/timetrial_reset"
+        android:icon="@android:drawable/ic_popup_sync"
+        android:orderInCategory="200"
+        android:title="Reset"
+        app:showAsAction="always">
+    </item>
+</menu>

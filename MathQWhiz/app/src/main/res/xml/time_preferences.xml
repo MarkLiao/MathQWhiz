@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:entries="@array/TimeArrayDescription"
+        android:entryValues="@array/TimeArray"
+        android:key="time_pref_time"
+        android:title="@string/Time"
+        android:summary="60 or 120"
+        android:persistent="true"
+        android:defaultValue="60"/>
+
+    <ListPreference
+        android:entries="@array/time_GameMode"
+        android:entryValues="@array/time_GameMode"
+        android:key="time_pref_mode"
+        android:title="@string/Difficulty"
+        android:summary="@string/game_difficulties"
+        android:persistent="true"
+        android:defaultValue="Normal"/>
+
+    <MultiSelectListPreference
+        android:entries="@array/time_number_list"
+        android:entryValues="@array/time_number_list"
+        android:key="time_pref_numbers"
+        android:title="Numbers"
+        android:summary="Numbers to include: 1 - 20"
+        android:persistent="true"
+        android:defaultValue="@array/time_default_numbers"/>
+
+    <MultiSelectListPreference
+        android:entries="@array/time_operation_list"
+        android:entryValues="@array/time_operation_list"
+        android:key="time_pref_operations"
+        android:title="Operations"
+        android:summary="Math operations to include"
+        android:persistent="true"
+        android:defaultValue="@array/time_default_operation"/>
+
+</PreferenceScreen>

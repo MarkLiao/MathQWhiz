@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/timeLinearLayout1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:id="@+id/timeQuestionNumberTextView" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:id="@+id/timeLeftTextView" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:background="@drawable/border"
+            android:textSize="50sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/timeQuestionTextView" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.75"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Answers"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:id="@+id/timeUserResponseTextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/timeLinearLayout2">
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/timeA1_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            fancy:fb_borderColor="@android:color/black"
+            fancy:fb_borderWidth="2dp"
+            fancy:fb_defaultColor="@android:color/holo_orange_light"
+            fancy:fb_focusColor="@android:color/black"
+            fancy:fb_radius="5dp"
+            fancy:fb_text="Answer 1"
+            fancy:fb_textSize="20sp"
+            fancy:fb_textColor="#FFFFFF"
+            />
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/timeA2_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            fancy:fb_borderColor="@android:color/black"
+            fancy:fb_borderWidth="2dp"
+            fancy:fb_defaultColor="@android:color/holo_orange_light"
+            fancy:fb_focusColor="@android:color/black"
+            fancy:fb_radius="5dp"
+            fancy:fb_text="Answer 2"
+            fancy:fb_textSize="20sp"
+            fancy:fb_textColor="#FFFFFF"
+            />
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/timeA3_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            fancy:fb_borderColor="@android:color/black"
+            fancy:fb_borderWidth="2dp"
+            fancy:fb_defaultColor="@android:color/holo_orange_light"
+            fancy:fb_focusColor="@android:color/black"
+            fancy:fb_radius="5dp"
+            fancy:fb_text="Answer 3"
+            fancy:fb_textSize="20sp"
+            fancy:fb_textColor="#FFFFFF"
+            />
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/timeA4_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            fancy:fb_borderColor="@android:color/black"
+            fancy:fb_borderWidth="2dp"
+            fancy:fb_defaultColor="@android:color/holo_orange_light"
+            fancy:fb_focusColor="@android:color/black"
+            fancy:fb_radius="5dp"
+            fancy:fb_text="Answer 4"
+            fancy:fb_textSize="20sp"
+            fancy:fb_textColor="#FFFFFF"
+            />
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/timeA5_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            fancy:fb_borderColor="@android:color/black"
+            fancy:fb_borderWidth="2dp"
+            fancy:fb_defaultColor="@android:color/holo_orange_light"
+            fancy:fb_focusColor="@android:color/black"
+            fancy:fb_radius="5dp"
+            fancy:fb_text="Answer 5"
+            fancy:fb_textSize="20sp"
+            fancy:fb_textColor="#FFFFFF"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

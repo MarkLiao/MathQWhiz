@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/game_mode_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Game Mode Selection"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="@string/game_mode"
+        android:textSize="50sp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/standard_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            fancy:fb_borderColor="@android:color/black"
+            fancy:fb_borderWidth="2dp"
+            fancy:fb_defaultColor="@android:color/holo_blue_dark"
+            fancy:fb_focusColor="@android:color/black"
+            fancy:fb_radius="20dp"
+            fancy:fb_text="Standard"
+            fancy:fb_textSize="20sp"
+            fancy:fb_textColor="#FFFFFF"
+            />
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/TimeTrial_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            fancy:fb_borderColor="@android:color/black"
+            fancy:fb_borderWidth="2dp"
+            fancy:fb_defaultColor="@android:color/holo_blue_dark"
+            fancy:fb_focusColor="@android:color/black"
+            fancy:fb_radius="20dp"
+            fancy:fb_text="Time Trial"
+            fancy:fb_textSize="20sp"
+            fancy:fb_textColor="#FFFFFF"
+            />
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/Survival_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            fancy:fb_borderColor="@android:color/black"
+            fancy:fb_borderWidth="2dp"
+            fancy:fb_defaultColor="@android:color/holo_blue_dark"
+            fancy:fb_focusColor="@android:color/black"
+            fancy:fb_radius="20dp"
+            fancy:fb_text="Survival"
+            fancy:fb_textSize="20sp"
+            fancy:fb_textColor="#FFFFFF"
+            />
+            
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

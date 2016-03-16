@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/rules_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Game Rules"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <com.sembozdemir.viewpagerarrowindicator.library.ViewPagerArrowIndicator
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/viewPagerArrowIndicator">
+
+        <android.support.v4.view.ViewPager
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:id="@+id/viewpager"/>
+    </com.sembozdemir.viewpagerarrowindicator.library.ViewPagerArrowIndicator>
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">"Math QWhiz "</string>
+    <string name="action_settings">Settings</string>
+    <string name="game_mode">Game Mode</string>
+    <string name="Difficulty">Difficulty</string>
+    <string name="game_difficulties">Easy, Normal, Hard</string>
+    <string name="Time">Time</string>
+    <string name="time_description">Amount of Time: 60s or 120s</string>
+    <string name="standard_rules">Standard</string>
+    <string name="Standard_Rules_Description">Like a quiz answer questions that are provided.</string>
+    <string name="timetrial_rules">Time Trial</string>
+    <string name="timetrial_rules_description">Answer as many questions as you can before time runs out!</string>
+    <string name="survival_rules">Survival</string>
+    <string name="survival_rules_description">One Life, one chance. \nAnswer as many questions as you can under the time limits.</string>
+</resources>
